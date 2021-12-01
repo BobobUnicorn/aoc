@@ -1,0 +1,22 @@
+cradle:
+  cabal:
+    - path: "aoc-util/src"
+      component: "lib:aoc-util"
+
+    - path: "aoc-util/test"
+      component: "aoc-util:test:aoc-util-test"
+
+    - path: "day-1/app/Main.hs"
+      component: "day1:exe:day1"
+
+    - path: "day-2/app/Main.hs"
+      component: "day2:exe:day2"
+
+    - path: "day-3/app/Main.hs"
+      component: "day3:exe:day3"
+
+    - path: "day-4/app/Main.hs"
+      component: "day4:exe:day4"
+
+    - path: "day-5/app/Main.hs"
+      component: "day5:exe:day5"
